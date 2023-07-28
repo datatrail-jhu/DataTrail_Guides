@@ -5,18 +5,21 @@
 ottrpal::include_slide("https://docs.google.com/presentation/d/1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ/edit#slide=id.gcc4fbee202_0_141")
 ```
 
-
-
 ## Step 1: Non profit partners
 
 A good DataTrail program needs to be rooted in a connection to the community it wishes to serve. The DataTrail program needs to respond to what the community wants and the needs they describe.
 
 The role of the non-profit partner is to help with the social support and resources for the scholar's development.
+For example, in the Baltimore, the inaugural cohorts were done in partnership with the Youth Opportunity program of the Baltimore Mayor's office:
+
+> Youth Opportunity (YO) Baltimore serves youth between the ages of 18 and 24 who are disconnected from school and/or the workforce and links them to community-based educational, workforce preparation, and personal development services. Operating out of two safe, youth-friendly centers – one in West Baltimore and one in East Baltimore – YO embraces a youth development model that builds upon the existing strengths of each YO member, connects them with caring adults, and offers a full range of beneficial services.
+
+A great non profit partner is one that has overlapping goals with DataTrail in a way that you can support each other.
+You may need to ask around in your community to find groups who are doing similar work.
 
 ### Tips for finding non-profit partners:
 
 TODO: I have no idea how this is done.
-
 
 ## Step 2: Finding funding
 
@@ -34,7 +37,6 @@ A DataTrail costs include:
 ### Tips for securing funding:
 
 TODO: I have no idea how this is done.
-
 
 ## Step 3: Finding staff
 
@@ -67,7 +69,7 @@ Specific duties & responsibilities:
 - Experience with financial and other types administration.
 ```
 
-## Case Manager
+### Case Manager
 
 The case manager role is crucial for the support of the DataTrail scholars and mitigating any barriers that may arise. The case manager's main responsibility is to help the scholars look ahead to see what barriers they may encounter and cooperatively figure out a plan for how the scholar can combat these barriers.
 
@@ -141,6 +143,12 @@ Specific duties & responsibilities:
 
 ## Step 4: Finding the scholars
 
+This is something your Program Administrator and Case Manager will coordinate with your community non-profit partner.
 
+TODO: Have Liz write about her process.
+
+Additionally, there is an open 
 
 ## Step 5: Setting up to run your first cohort
+
+## Step 6: Internships placements
