@@ -1,26 +1,38 @@
 ---
-title: "Course Name"
+title: " Course Name "
 date: "`r format(Sys.time(), '%B, %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib]
+bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 description: "Description about Course/Book."
-favicon: assets/dasl_favicon.ico
-output:
-    bookdown::word_document2:
-      toc: true
+favicon: assets/DataTrail_favicon.ico
 ---
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), "bookdown", "knitr", "rmarkdown"
+), "packages.bib")
+```
 
 # About this Course {-}
 
+This course is part of a series of courses for [DataTrail](https://www.datatrail.org/). DataTrail is a no-cost, paid 14-week educational initiative for young-adult, high school and GED-graduates. DataTrail aims to equip members of underserved communities with the necessary skills and support required to work in the booming field of data science. 
 
-## Available course formats
+DataTrail is a fresh take on workforce development that focuses on training both Black, Indigenous, and other people of color (BIPOC) interested in the data science industry and their potential employers.
 
-This course is available in multiple formats which allows you to take it in the way that best suites your needs. You can take it for certificate which can be for free or fee.
+Offered by the Johns Hopkins Bloomberg School of Public Health, in partnership with local non-profits and Leanpub, DataTrail combines a mutually-intensive learning experience (MILE) with a whole-person ecosystem of support to allow aspiring data scientists and their employers to succeed.  
 
-- The material for this course can be viewed without login requirement on this [Bookdown website](LINK HERE). This format might be most appropriate for you if you rely on screen-reader technology.
-- This course can be taken for [free certification through Leanpub](LINK HERE).
-- This course can be taken on [Coursera for certification here](LINK HERE) (but it is not available for free on Coursera).
-- Our courses are open source, you can find the [source material for this course on GitHub](LINK HERE).
+DataTrail uses mutually-intensive learning
+DataTrail joins aspiring data science scholars and expert-level data scientist mentors in a mutually-intensive learning experience (MILE).  
+
+In the DataTrail MILE: 
+
+Scholars engage in cutting-edge technical and soft skills training needed to enter the data science field.
+
+Mentors engage in anti-racism and mentorship training needed to be impactful mentors and informed colleagues on diverse data science teams.
+
+The social connections created along the way will fuel job opportunities for scholars and foster a more diverse, equitable, and inclusive climate at the mentors' institutions.
