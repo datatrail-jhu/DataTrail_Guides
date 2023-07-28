@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 1 Background for DataTrail | Course Name</title>
+  <meta name="description" content="Description about Course/Book." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 1 Background for DataTrail | Course Name" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Description about Course/Book." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 1 Background for DataTrail | Course Name" />
+  
+  <meta name="twitter:description" content="Description about Course/Book." />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="assets/DataTrail_favicon.ico" type="image/x-icon" />
+<link rel="prev" href="index.html"/>
+<link rel="next" href="components-of-a-program.html"/>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  background-color: #f8f8f8; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ef2929; } /* Alert */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #c4a000; } /* Attribute */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4e9a06; } /* Char */
+code span.cn { color: #000000; } /* Constant */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #0000cf; } /* Float */
+code span.fu { color: #000000; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.ot { color: #8f5902; } /* Other */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.st { color: #4e9a06; } /* String */
+code span.va { color: #000000; } /* Variable */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="assets/style_DataTrail.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<a href="https://www.datatrail.org/"><img src="assets/DataTrail_logo.jpg" style="padding-left: 0px; padding-top: 8px;"</a>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a></li>
+<li class="chapter" data-level="1" data-path="background-for-datatrail.html"><a href="background-for-datatrail.html"><i class="fa fa-check"></i><b>1</b> Background for DataTrail</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="background-for-datatrail.html"><a href="background-for-datatrail.html#motivation"><i class="fa fa-check"></i><b>1.1</b> Motivation</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="background-for-datatrail.html"><a href="background-for-datatrail.html#the-bad-news"><i class="fa fa-check"></i><b>1.1.1</b> The bad news:</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="background-for-datatrail.html"><a href="background-for-datatrail.html#the-barriers"><i class="fa fa-check"></i><b>1.2</b> The barriers</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="background-for-datatrail.html"><a href="background-for-datatrail.html#the-good-news"><i class="fa fa-check"></i><b>1.2.1</b> The good news:</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="components-of-a-program.html"><a href="components-of-a-program.html"><i class="fa fa-check"></i><b>2</b> Components of a program</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="components-of-a-program.html"><a href="components-of-a-program.html#step-1-non-profit-partners"><i class="fa fa-check"></i><b>2.1</b> Step 1: Non profit partners</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="components-of-a-program.html"><a href="components-of-a-program.html#tips-for-finding-non-profit-partners"><i class="fa fa-check"></i><b>2.1.1</b> Tips for finding non-profit partners:</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="components-of-a-program.html"><a href="components-of-a-program.html#step-2-finding-funding"><i class="fa fa-check"></i><b>2.2</b> Step 2: Finding funding</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="components-of-a-program.html"><a href="components-of-a-program.html#tips-for-securing-funding"><i class="fa fa-check"></i><b>2.2.1</b> Tips for securing funding:</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="components-of-a-program.html"><a href="components-of-a-program.html#step-3-finding-staff"><i class="fa fa-check"></i><b>2.3</b> Step 3: Finding staff</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="components-of-a-program.html"><a href="components-of-a-program.html#program-administrator"><i class="fa fa-check"></i><b>2.3.1</b> Program administrator</a></li>
+<li class="chapter" data-level="2.3.2" data-path="components-of-a-program.html"><a href="components-of-a-program.html#case-manager"><i class="fa fa-check"></i><b>2.3.2</b> Case Manager</a></li>
+<li class="chapter" data-level="2.3.3" data-path="components-of-a-program.html"><a href="components-of-a-program.html#lead-instructor"><i class="fa fa-check"></i><b>2.3.3</b> Lead instructor</a></li>
+<li class="chapter" data-level="2.3.4" data-path="components-of-a-program.html"><a href="components-of-a-program.html#tutors"><i class="fa fa-check"></i><b>2.3.4</b> Tutors</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="components-of-a-program.html"><a href="components-of-a-program.html#step-4-finding-the-scholars"><i class="fa fa-check"></i><b>2.4</b> Step 4: Finding the scholars</a></li>
+<li class="chapter" data-level="2.5" data-path="components-of-a-program.html"><a href="components-of-a-program.html#step-5-setting-up-to-run-your-first-cohort"><i class="fa fa-check"></i><b>2.5</b> Step 5: Setting up to run your first cohort</a></li>
+<li class="chapter" data-level="2.6" data-path="components-of-a-program.html"><a href="components-of-a-program.html#step-6-internships-placements"><i class="fa fa-check"></i><b>2.6</b> Step 6: Internships placements</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html"><i class="fa fa-check"></i><b>3</b> Setting up for a Cohort</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#identifying-scholars"><i class="fa fa-check"></i><b>3.1</b> Identifying scholars</a></li>
+<li class="chapter" data-level="3.2" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#payroll-mechanisms"><i class="fa fa-check"></i><b>3.2</b> Payroll mechanisms</a></li>
+<li class="chapter" data-level="3.3" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#learning-about-your-scholars"><i class="fa fa-check"></i><b>3.3</b> Learning about your scholars</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#are-they-at-a-good-place-right-now-to-commit-to-this-educational-endeavor"><i class="fa fa-check"></i><b>3.3.1</b> Are they at a good place right now to commit to this educational endeavor?</a></li>
+<li class="chapter" data-level="3.3.2" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#do-they-display-a-sincere-interest-in-data-science"><i class="fa fa-check"></i><b>3.3.2</b> Do they display a sincere interest in Data Science?</a></li>
+<li class="chapter" data-level="3.3.3" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#is-their-housing-and-income-stable-enough-for-them-to-complete-this-program"><i class="fa fa-check"></i><b>3.3.3</b> Is their housing and income stable enough for them to complete this program?</a></li>
+<li class="chapter" data-level="3.3.4" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#do-they-understand-the-expectations-and-demands-of-this-datatrail-program"><i class="fa fa-check"></i><b>3.3.4</b> Do they understand the expectations and demands of this DataTrail program?</a></li>
+<li class="chapter" data-level="3.3.5" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#what-kinds-of-barriers-are-they-likely-to-encounter-that-may-impede-their-ability-to-complete-this-program"><i class="fa fa-check"></i><b>3.3.5</b> What kinds of barriers are they likely to encounter that may impede their ability to complete this program?</a></li>
+<li class="chapter" data-level="3.3.6" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#will-some-of-these-barriers-be-mitigated-or-nonexistent-at-a-later-point-in-time"><i class="fa fa-check"></i><b>3.3.6</b> Will some of these barriers be mitigated or nonexistent at a later point in time?</a></li>
+<li class="chapter" data-level="3.3.7" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#what-strategies-and-resources-can-the-scholar-employ-to-mitigate-these-barriers"><i class="fa fa-check"></i><b>3.3.7</b> What strategies and resources can the scholar employ to mitigate these barriers?</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="running-a-datatrail-cohort.html"><a href="running-a-datatrail-cohort.html"><i class="fa fa-check"></i><b>4</b> Running a DataTrail cohort</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="running-a-datatrail-cohort.html"><a href="running-a-datatrail-cohort.html#welcome-week"><i class="fa fa-check"></i><b>4.1</b> Welcome week</a></li>
+<li class="chapter" data-level="4.2" data-path="running-a-datatrail-cohort.html"><a href="running-a-datatrail-cohort.html#components-of-the-curriculum"><i class="fa fa-check"></i><b>4.2</b> Components of the curriculum</a></li>
+<li class="chapter" data-level="4.3" data-path="running-a-datatrail-cohort.html"><a href="running-a-datatrail-cohort.html#supporting-students-to-meet-requirements"><i class="fa fa-check"></i><b>4.3</b> Supporting students to meet requirements</a></li>
+<li class="chapter" data-level="4.4" data-path="running-a-datatrail-cohort.html"><a href="running-a-datatrail-cohort.html#example-schedule"><i class="fa fa-check"></i><b>4.4</b> Example schedule</a>
+<ul>
+<li class="chapter" data-level="4.4.1" data-path="running-a-datatrail-cohort.html"><a href="running-a-datatrail-cohort.html#wrapping-up-a-cohort"><i class="fa fa-check"></i><b>4.4.1</b> Wrapping up a cohort</a></li>
+<li class="chapter" data-level="4.4.2" data-path="running-a-datatrail-cohort.html"><a href="running-a-datatrail-cohort.html#to-contribute-to-the-curriculum"><i class="fa fa-check"></i><b>4.4.2</b> To contribute to the curriculum:</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="internships.html"><a href="internships.html"><i class="fa fa-check"></i><b>5</b> Internships</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="internships.html"><a href="internships.html#how-to-find-internship-locations"><i class="fa fa-check"></i><b>5.1</b> How to find internship locations</a></li>
+<li class="chapter" data-level="5.2" data-path="internships.html"><a href="internships.html#how-to-prepare-internship-locations"><i class="fa fa-check"></i><b>5.2</b> How to prepare internship locations</a></li>
+<li class="chapter" data-level="5.3" data-path="internships.html"><a href="internships.html#how-to-pay-for-internships"><i class="fa fa-check"></i><b>5.3</b> How to pay for internships</a></li>
+<li class="chapter" data-level="5.4" data-path="internships.html"><a href="internships.html#how-to-place-graduates-in-internships"><i class="fa fa-check"></i><b>5.4</b> How to place graduates in internships</a></li>
+<li class="chapter" data-level="5.5" data-path="internships.html"><a href="internships.html#how-to-support-graduates-in-their-internships"><i class="fa fa-check"></i><b>5.5</b> How to support graduates in their internships</a></li>
+<li class="chapter" data-level="5.6" data-path="internships.html"><a href="internships.html#ending-internships"><i class="fa fa-check"></i><b>5.6</b> Ending Internships</a></li>
+<li class="chapter" data-level="5.7" data-path="internships.html"><a href="internships.html#connecting-scholars-to-job-opportunities"><i class="fa fa-check"></i><b>5.7</b> Connecting scholars to job opportunities</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="a-new-chapter.html"><a href="a-new-chapter.html"><i class="fa fa-check"></i><b>6</b> A new chapter</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="a-new-chapter.html"><a href="a-new-chapter.html#learning-objectives"><i class="fa fa-check"></i><b>6.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="6.2" data-path="a-new-chapter.html"><a href="a-new-chapter.html#libraries"><i class="fa fa-check"></i><b>6.2</b> Libraries</a></li>
+<li class="chapter" data-level="6.3" data-path="a-new-chapter.html"><a href="a-new-chapter.html#topic-of-section"><i class="fa fa-check"></i><b>6.3</b> Topic of Section</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="a-new-chapter.html"><a href="a-new-chapter.html#subtopic"><i class="fa fa-check"></i><b>6.3.1</b> Subtopic</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="a-new-chapter.html"><a href="a-new-chapter.html#code-examples"><i class="fa fa-check"></i><b>6.4</b> Code examples</a></li>
+<li class="chapter" data-level="6.5" data-path="a-new-chapter.html"><a href="a-new-chapter.html#image-example"><i class="fa fa-check"></i><b>6.5</b> Image example</a></li>
+<li class="chapter" data-level="6.6" data-path="a-new-chapter.html"><a href="a-new-chapter.html#video-examples"><i class="fa fa-check"></i><b>6.6</b> Video examples</a>
+<ul>
+<li class="chapter" data-level="6.6.1" data-path="a-new-chapter.html"><a href="a-new-chapter.html#using-knitr"><i class="fa fa-check"></i><b>6.6.1</b> Using <code>knitr</code></a></li>
+<li class="chapter" data-level="6.6.2" data-path="a-new-chapter.html"><a href="a-new-chapter.html#using-html"><i class="fa fa-check"></i><b>6.6.2</b> Using HTML</a></li>
+</ul></li>
+<li class="chapter" data-level="6.7" data-path="a-new-chapter.html"><a href="a-new-chapter.html#file-examples"><i class="fa fa-check"></i><b>6.7</b> File examples</a>
+<ul>
+<li class="chapter" data-level="6.7.1" data-path="a-new-chapter.html"><a href="a-new-chapter.html#using-knitr-1"><i class="fa fa-check"></i><b>6.7.1</b> Using <code>knitr</code></a></li>
+<li class="chapter" data-level="6.7.2" data-path="a-new-chapter.html"><a href="a-new-chapter.html#using-html-1"><i class="fa fa-check"></i><b>6.7.2</b> Using HTML</a></li>
+</ul></li>
+<li class="chapter" data-level="6.8" data-path="a-new-chapter.html"><a href="a-new-chapter.html#website-examples"><i class="fa fa-check"></i><b>6.8</b> Website Examples</a>
+<ul>
+<li class="chapter" data-level="6.8.1" data-path="a-new-chapter.html"><a href="a-new-chapter.html#using-knitr-2"><i class="fa fa-check"></i><b>6.8.1</b> Using <code>knitr</code></a></li>
+<li class="chapter" data-level="6.8.2" data-path="a-new-chapter.html"><a href="a-new-chapter.html#using-html-2"><i class="fa fa-check"></i><b>6.8.2</b> Using HTML</a></li>
+</ul></li>
+<li class="chapter" data-level="6.9" data-path="a-new-chapter.html"><a href="a-new-chapter.html#citation-examples"><i class="fa fa-check"></i><b>6.9</b> Citation examples</a></li>
+<li class="chapter" data-level="6.10" data-path="a-new-chapter.html"><a href="a-new-chapter.html#stylized-boxes"><i class="fa fa-check"></i><b>6.10</b> Stylized boxes</a>
+<ul>
+<li class="chapter" data-level="6.10.1" data-path="a-new-chapter.html"><a href="a-new-chapter.html#using-rmarkdown-container-syntax"><i class="fa fa-check"></i><b>6.10.1</b> Using <code>rmarkdown</code> container syntax</a></li>
+<li class="chapter" data-level="6.10.2" data-path="a-new-chapter.html"><a href="a-new-chapter.html#using-html-3"><i class="fa fa-check"></i><b>6.10.2</b> Using HTML</a></li>
+</ul></li>
+<li class="chapter" data-level="6.11" data-path="a-new-chapter.html"><a href="a-new-chapter.html#dropdown-summaries"><i class="fa fa-check"></i><b>6.11</b> Dropdown summaries</a></li>
+<li class="chapter" data-level="6.12" data-path="a-new-chapter.html"><a href="a-new-chapter.html#print-out-session-info"><i class="fa fa-check"></i><b>6.12</b> Print out session info</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="7" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>7</b> References</a></li>
+<li class="divider"></li>
+<p style="text-align:center;"> <a href="https://github.com/jhudsl/OTTR_Template" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by: </a> </p>
+<p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
+<a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; filter: grayscale(100%); padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://forms.gle/VWaJYc3zATe3qxYC9"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Course Name</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+  <link href="assets/style_DataTrail.css" rel="stylesheet">
+</head>
+        
+
+
+<div class="hero-image-container"> 
+  <img class= "hero-image" src="assets/DataTrail.jpg">
+</div>
+<div id="background-for-datatrail" class="section level1" number="1">
+<h1><span class="header-section-number">Chapter 1</span> Background for DataTrail</h1>
+<p>DataTrail is a no-cost, paid educational initiative for young-adult, high school and GED-graduates. DataTrail aims to equip members of underserved communities with the necessary skills and support required to work in the booming field of data science.</p>
+<p>DataTrail began as an initiative through the Johns Hopkins Bloomberg School of Public Health, in partnership with local non-profits in the Baltimore area. The materials, lessons, and strategies that the inaugural DataTrail program has used are described here in hopes that other groups in other cities can start their own DataTrail programs.</p>
+<p>In this guide, we will cover how you can start your own DataTrail program.</p>
+<div id="motivation" class="section level2" number="1.1">
+<h2><span class="header-section-number">1.1</span> Motivation</h2>
+<div id="the-bad-news" class="section level3" number="1.1.1">
+<h3><span class="header-section-number">1.1.1</span> The bad news:</h3>
+<p>Data science suffers from a lack of diversity that likely stems from societal racial inequities absorbed by the field. Data science is ovewhelmingly and unfortunately white and male. Meaning the field is not equitable for entry for everyone.</p>
+<p>This is a huge problem for two reasons:</p>
+<ol style="list-style-type: decimal">
+<li>Lack of diversity in data science work can leads to short-sighted and limited work that ultimately can be harmful to larger society:</li>
+</ol>
+<ul>
+<li><a href="https://www.technologyreview.com/2020/12/10/1013617/racism-data-science-artificial-intelligence-ai-opinion/">How our data encodes systematic racism</a> - Technology review</li>
+<li><a href="https://www.washingtonpost.com/health/2019/10/24/racial-bias-medical-algorithm-favors-white-patients-over-sicker-black-patients/">Racial bias in a medical algorithm favors white patients over sicker black patients</a> - Washinton Post</li>
+<li><a href="https://www.nytimes.com/2019/12/19/technology/facial-recognition-bias.html">Many Facial-Recognition Systems Are Biased, Says U.S. Study</a> - The New York Times</li>
+<li><a href="https://www.nytimes.com/2019/07/08/us/detroit-facial-recognition-cameras.html">As Cameras Track Detroit’s Residents, a Debate Ensues Over Racial Bias</a> - The New York Times</li>
+<li><a href="https://www.technologyreview.com/2019/04/05/1175/facebook-algorithm-discriminates-ai-bias/">Facebook’s ad-serving algorithm discriminates by gender and race</a> - MIT Technology Review</li>
+<li><a href="https://www.tcdailyplanet.net/how-community-members-in-ramsey-county-stopped-a-big-data-plan-from-flagging-students-as-at-risk/">How community members in Ramsey County stopped a big-data plan from flagging students as at-risk</a> - TC Daily Planet</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Income mobility is a public health issue and many individuals who would highly benefit from the career of data science are currently excluded from the benefits of an exciting and lucrative career in data science.</li>
+</ol>
+</div>
+</div>
+<div id="the-barriers" class="section level2" number="1.2">
+<h2><span class="header-section-number">1.2</span> The barriers</h2>
+<p>Many industries have huge data science hiring demands but the individuals who could help fill this demand in ways that would bring sorely needed insights to the field are impeded by a number of barriers that can often be dispropotionately difficult barriers for marginalized individuals.</p>
+<p>In order for any person to launch their data science career they need:</p>
+<ul>
+<li>Know data science is a career option!</li>
+<li>Have the income security that would allow them to pursue career building education</li>
+<li>Own a quality computer so they can do data science work</li>
+<li>Have connections and the ability to join the appropriate data science education programs</li>
+<li>Have access to data science instruction to learn the skills.</li>
+<li>Find appropriate job postings that fit their career goals</li>
+<li>Access to the connections needs to continue to build their data science career</li>
+</ul>
+<p><img src="resources/images/01-intro_files/figure-html/1ZPSVYmpnwzNyELl_Oqq7WE1gCJ6RhBLE4Umqi0NUJmc_g7a385f1638_0_433.png" width="100%" /></p>
+<div id="the-good-news" class="section level3" number="1.2.1">
+<h3><span class="header-section-number">1.2.1</span> The good news:</h3>
+<p>The goal of DataTrail is to try to reduce racial inequities in data science by reducing these barriers for young adults.</p>
+<p>Income mobility is aided by education! So what we can do as a part of a DataTrail program is support these young individuals on their journey’s toward a data science career.</p>
+<p><img src="resources/images/01-intro_files/figure-html/1ZPSVYmpnwzNyELl_Oqq7WE1gCJ6RhBLE4Umqi0NUJmc_g7a385f1638_0_998.png" width="100%" /></p>
+<p>To this end, a DataTrail program provides:</p>
+<ul>
+<li>Payment to help with income security for individuals in the program</li>
+<li>A Chromebook laptop and access to Posit Cloud for use for data science work.</li>
+<li>Instruction and support for the data science education</li>
+<li>Social support to help scholars mitigate other barriers to their education: internet access, transportation issues, housing, childcare, etc.<br />
+</li>
+<li>Internships after completion of the program</li>
+<li>Connections to individuals and programs that can help a DataTrail graduate build their career</li>
+</ul>
+<p>In the upcoming chapters, we will discuss all the tips and strategies we have used to set up the Baltimore DataTrail program in hopes that you can use this guide run a DataTrail program.</p>
+
+</div>
+</div>
+</div>
+<hr>
+<center> 
+  <div class="footer">
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="components-of-a-program.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
