@@ -1,92 +1,65 @@
 
 
 
-# Introduction
+# Background for DataTrail
 
+DataTrail is a no-cost, paid educational initiative for young-adult, high school and GED-graduates. DataTrail aims to equip members of underserved communities with the necessary skills and support required to work in the booming field of data science.
+
+DataTrail began as an initiative through the Johns Hopkins Bloomberg School of Public Health, in partnership with local non-profits in the Baltimore area. The materials, lessons, and strategies that the inaugural DataTrail program has used are described here in hopes that other groups in other cities can start their own DataTrail programs.
+
+In this guide, we will cover how you can start your own DataTrail program.
 
 ## Motivation
 
+### The bad news:
 
-## Target Audience  
+Data science suffers from a lack of diversity that likely stems from societal racial inequities absorbed by the field. Data science is ovewhelmingly and unfortunately white and male. Meaning the field is not equitable for entry for everyone.
 
-The course is intended for ...
+This is a huge problem for two reasons:
 
-## Curriculum  
+1. Lack of diversity in data science work can leads to short-sighted and limited work that ultimately can be harmful to larger society:
 
-The course covers...
+- [How our data encodes systematic racism](https://www.technologyreview.com/2020/12/10/1013617/racism-data-science-artificial-intelligence-ai-opinion/) - Technology review
+- [Racial bias in a medical algorithm favors white patients over sicker black patients](https://www.washingtonpost.com/health/2019/10/24/racial-bias-medical-algorithm-favors-white-patients-over-sicker-black-patients/) - Washinton Post
+- [Many Facial-Recognition Systems Are Biased, Says U.S. Study](https://www.nytimes.com/2019/12/19/technology/facial-recognition-bias.html) - The New York Times
+- [As Cameras Track Detroit’s Residents, a Debate Ensues Over Racial Bias](https://www.nytimes.com/2019/07/08/us/detroit-facial-recognition-cameras.html) - The New York Times
+- [Facebook’s ad-serving algorithm discriminates by gender and race](https://www.technologyreview.com/2019/04/05/1175/facebook-algorithm-discriminates-ai-bias/) - MIT Technology Review
+- [How community members in Ramsey County stopped a big-data plan from flagging students as at-risk ](https://www.tcdailyplanet.net/how-community-members-in-ramsey-county-stopped-a-big-data-plan-from-flagging-students-as-at-risk/) - TC Daily Planet
+
+2. Income mobility is a public health issue and many individuals who would highly benefit from the career of data science are currently excluded from the benefits of an exciting and lucrative career in data science.
 
 
+## The barriers
 
-```r
-devtools::session_info()
-```
+Many industries have huge data science hiring demands but the individuals who could help fill this demand in ways that would bring sorely needed insights to the field are impeded by a number of barriers that can often be dispropotionately difficult barriers for marginalized individuals.
 
-```
-## ─ Session info ───────────────────────────────────────────────────────────────
-##  setting  value                       
-##  version  R version 4.0.2 (2020-06-22)
-##  os       Ubuntu 20.04.5 LTS          
-##  system   x86_64, linux-gnu           
-##  ui       X11                         
-##  language (EN)                        
-##  collate  en_US.UTF-8                 
-##  ctype    en_US.UTF-8                 
-##  tz       Etc/UTC                     
-##  date     2023-05-24                  
-## 
-## ─ Packages ───────────────────────────────────────────────────────────────────
-##  package     * version date       lib source                            
-##  assertthat    0.2.1   2019-03-21 [1] RSPM (R 4.0.5)                    
-##  bookdown      0.24    2023-03-28 [1] Github (rstudio/bookdown@88bc4ea) 
-##  bslib         0.4.2   2022-12-16 [1] CRAN (R 4.0.2)                    
-##  cachem        1.0.7   2023-02-24 [1] CRAN (R 4.0.2)                    
-##  callr         3.5.0   2020-10-08 [1] RSPM (R 4.0.2)                    
-##  cli           3.6.1   2023-03-23 [1] CRAN (R 4.0.2)                    
-##  crayon        1.3.4   2017-09-16 [1] RSPM (R 4.0.0)                    
-##  desc          1.2.0   2018-05-01 [1] RSPM (R 4.0.3)                    
-##  devtools      2.3.2   2020-09-18 [1] RSPM (R 4.0.3)                    
-##  digest        0.6.25  2020-02-23 [1] RSPM (R 4.0.0)                    
-##  ellipsis      0.3.1   2020-05-15 [1] RSPM (R 4.0.3)                    
-##  evaluate      0.20    2023-01-17 [1] CRAN (R 4.0.2)                    
-##  fansi         0.4.1   2020-01-08 [1] RSPM (R 4.0.0)                    
-##  fastmap       1.1.1   2023-02-24 [1] CRAN (R 4.0.2)                    
-##  fs            1.5.0   2020-07-31 [1] RSPM (R 4.0.3)                    
-##  glue          1.4.2   2020-08-27 [1] RSPM (R 4.0.5)                    
-##  hms           0.5.3   2020-01-08 [1] RSPM (R 4.0.0)                    
-##  htmltools     0.5.5   2023-03-23 [1] CRAN (R 4.0.2)                    
-##  jquerylib     0.1.4   2021-04-26 [1] CRAN (R 4.0.2)                    
-##  jsonlite      1.7.1   2020-09-07 [1] RSPM (R 4.0.2)                    
-##  knitr         1.33    2023-03-28 [1] Github (yihui/knitr@a1052d1)      
-##  lifecycle     1.0.3   2022-10-07 [1] CRAN (R 4.0.2)                    
-##  magrittr      2.0.3   2022-03-30 [1] CRAN (R 4.0.2)                    
-##  memoise       2.0.1   2021-11-26 [1] CRAN (R 4.0.2)                    
-##  ottrpal       1.0.1   2023-03-28 [1] Github (jhudsl/ottrpal@151e412)   
-##  pillar        1.9.0   2023-03-22 [1] CRAN (R 4.0.2)                    
-##  pkgbuild      1.1.0   2020-07-13 [1] RSPM (R 4.0.2)                    
-##  pkgconfig     2.0.3   2019-09-22 [1] RSPM (R 4.0.3)                    
-##  pkgload       1.1.0   2020-05-29 [1] RSPM (R 4.0.3)                    
-##  prettyunits   1.1.1   2020-01-24 [1] RSPM (R 4.0.3)                    
-##  processx      3.4.4   2020-09-03 [1] RSPM (R 4.0.2)                    
-##  ps            1.4.0   2020-10-07 [1] RSPM (R 4.0.2)                    
-##  R6            2.4.1   2019-11-12 [1] RSPM (R 4.0.0)                    
-##  readr         1.4.0   2020-10-05 [1] RSPM (R 4.0.2)                    
-##  remotes       2.2.0   2020-07-21 [1] RSPM (R 4.0.3)                    
-##  rlang         1.1.0   2023-03-14 [1] CRAN (R 4.0.2)                    
-##  rmarkdown     2.10    2023-03-28 [1] Github (rstudio/rmarkdown@02d3c25)
-##  rprojroot     2.0.3   2022-04-02 [1] CRAN (R 4.0.2)                    
-##  sass          0.4.5   2023-01-24 [1] CRAN (R 4.0.2)                    
-##  sessioninfo   1.1.1   2018-11-05 [1] RSPM (R 4.0.3)                    
-##  stringi       1.5.3   2020-09-09 [1] RSPM (R 4.0.3)                    
-##  stringr       1.4.0   2019-02-10 [1] RSPM (R 4.0.3)                    
-##  testthat      3.0.1   2023-03-28 [1] Github (R-lib/testthat@e99155a)   
-##  tibble        3.2.1   2023-03-20 [1] CRAN (R 4.0.2)                    
-##  usethis       1.6.3   2020-09-17 [1] RSPM (R 4.0.2)                    
-##  utf8          1.1.4   2018-05-24 [1] RSPM (R 4.0.3)                    
-##  vctrs         0.6.1   2023-03-22 [1] CRAN (R 4.0.2)                    
-##  withr         2.3.0   2020-09-22 [1] RSPM (R 4.0.2)                    
-##  xfun          0.26    2023-03-28 [1] Github (yihui/xfun@74c2a66)       
-##  yaml          2.2.1   2020-02-01 [1] RSPM (R 4.0.3)                    
-## 
-## [1] /usr/local/lib/R/site-library
-## [2] /usr/local/lib/R/library
-```
+In order for any person to launch their data science career they need:
+
+- Know data science is a career option!
+- Have the income security that would allow them to pursue career building education
+- Own a quality computer so they can do data science work
+- Have connections and the ability to join the appropriate data science education programs
+- Have access to data science instruction to learn the skills.
+- Find appropriate job postings that fit their career goals
+- Access to the connections needs to continue to build their data science career
+
+<img src="resources/images/01-intro_files/figure-html//1ZPSVYmpnwzNyELl_Oqq7WE1gCJ6RhBLE4Umqi0NUJmc_g7a385f1638_0_433.png" width="100%" />
+
+### The good news:
+
+The goal of DataTrail is to try to reduce racial inequities in data science by reducing these barriers for young adults.
+
+Income mobility is aided by education! So what we can do as a part of a DataTrail program is support these young individuals on their journey's toward a data science career. 
+
+<img src="resources/images/01-intro_files/figure-html//1ZPSVYmpnwzNyELl_Oqq7WE1gCJ6RhBLE4Umqi0NUJmc_g7a385f1638_0_998.png" width="100%" />
+
+To this end, a DataTrail program provides:
+
+- Payment to help with income security for individuals in the program
+- A Chromebook laptop and access to Posit Cloud for use for data science work.
+- Instruction and support for the data science education
+- Social support to help scholars mitigate other barriers to their education: internet access, transportation issues, housing, childcare, etc.  
+- Internships after completion of the program
+- Connections to individuals and programs that can help a DataTrail graduate build their career
+
+In the upcoming chapters, we will discuss all the tips and strategies we have used to set up the Baltimore DataTrail program in hopes that you can use this guide run a DataTrail program.
