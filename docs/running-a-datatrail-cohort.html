@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 4 Running a DataTrail cohort | Course Name</title>
+  <meta name="description" content="Description about Course/Book." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 4 Running a DataTrail cohort | Course Name" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Description about Course/Book." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 4 Running a DataTrail cohort | Course Name" />
+  
+  <meta name="twitter:description" content="Description about Course/Book." />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="assets/DataTrail_favicon.ico" type="image/x-icon" />
+<link rel="prev" href="setting-up-for-a-cohort.html"/>
+<link rel="next" href="internships.html"/>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  background-color: #f8f8f8; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ef2929; } /* Alert */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #c4a000; } /* Attribute */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4e9a06; } /* Char */
+code span.cn { color: #000000; } /* Constant */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #0000cf; } /* Float */
+code span.fu { color: #000000; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.ot { color: #8f5902; } /* Other */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.st { color: #4e9a06; } /* String */
+code span.va { color: #000000; } /* Variable */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="assets/style_DataTrail.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<a href="https://www.datatrail.org/"><img src="assets/DataTrail_logo.jpg" style="padding-left: 0px; padding-top: 8px;"</a>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a></li>
+<li class="chapter" data-level="1" data-path="background-for-datatrail.html"><a href="background-for-datatrail.html"><i class="fa fa-check"></i><b>1</b> Background for DataTrail</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="background-for-datatrail.html"><a href="background-for-datatrail.html#motivation"><i class="fa fa-check"></i><b>1.1</b> Motivation</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="background-for-datatrail.html"><a href="background-for-datatrail.html#the-bad-news"><i class="fa fa-check"></i><b>1.1.1</b> The bad news:</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="background-for-datatrail.html"><a href="background-for-datatrail.html#the-barriers"><i class="fa fa-check"></i><b>1.2</b> The barriers</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="background-for-datatrail.html"><a href="background-for-datatrail.html#the-good-news"><i class="fa fa-check"></i><b>1.2.1</b> The good news:</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="components-of-a-program.html"><a href="components-of-a-program.html"><i class="fa fa-check"></i><b>2</b> Components of a program</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="components-of-a-program.html"><a href="components-of-a-program.html#step-1-non-profit-partners"><i class="fa fa-check"></i><b>2.1</b> Step 1: Non profit partners</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="components-of-a-program.html"><a href="components-of-a-program.html#tips-for-finding-non-profit-partners"><i class="fa fa-check"></i><b>2.1.1</b> Tips for finding non-profit partners:</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="components-of-a-program.html"><a href="components-of-a-program.html#step-2-finding-funding"><i class="fa fa-check"></i><b>2.2</b> Step 2: Finding funding</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="components-of-a-program.html"><a href="components-of-a-program.html#tips-for-securing-funding"><i class="fa fa-check"></i><b>2.2.1</b> Tips for securing funding:</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="components-of-a-program.html"><a href="components-of-a-program.html#step-3-finding-staff"><i class="fa fa-check"></i><b>2.3</b> Step 3: Finding staff</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="components-of-a-program.html"><a href="components-of-a-program.html#program-administrator"><i class="fa fa-check"></i><b>2.3.1</b> Program administrator</a></li>
+<li class="chapter" data-level="2.3.2" data-path="components-of-a-program.html"><a href="components-of-a-program.html#case-manager"><i class="fa fa-check"></i><b>2.3.2</b> Case Manager</a></li>
+<li class="chapter" data-level="2.3.3" data-path="components-of-a-program.html"><a href="components-of-a-program.html#lead-instructor"><i class="fa fa-check"></i><b>2.3.3</b> Lead instructor</a></li>
+<li class="chapter" data-level="2.3.4" data-path="components-of-a-program.html"><a href="components-of-a-program.html#tutors"><i class="fa fa-check"></i><b>2.3.4</b> Tutors</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="components-of-a-program.html"><a href="components-of-a-program.html#step-4-finding-the-scholars"><i class="fa fa-check"></i><b>2.4</b> Step 4: Finding the scholars</a></li>
+<li class="chapter" data-level="2.5" data-path="components-of-a-program.html"><a href="components-of-a-program.html#step-5-setting-up-to-run-your-first-cohort"><i class="fa fa-check"></i><b>2.5</b> Step 5: Setting up to run your first cohort</a></li>
+<li class="chapter" data-level="2.6" data-path="components-of-a-program.html"><a href="components-of-a-program.html#step-6-internships-placements"><i class="fa fa-check"></i><b>2.6</b> Step 6: Internships placements</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html"><i class="fa fa-check"></i><b>3</b> Setting up for a Cohort</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#identifying-scholars"><i class="fa fa-check"></i><b>3.1</b> Identifying scholars</a></li>
+<li class="chapter" data-level="3.2" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#payroll-mechanisms"><i class="fa fa-check"></i><b>3.2</b> Payroll mechanisms</a></li>
+<li class="chapter" data-level="3.3" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#learning-about-your-scholars"><i class="fa fa-check"></i><b>3.3</b> Learning about your scholars</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#are-they-at-a-good-place-right-now-to-commit-to-this-educational-endeavor"><i class="fa fa-check"></i><b>3.3.1</b> Are they at a good place right now to commit to this educational endeavor?</a></li>
+<li class="chapter" data-level="3.3.2" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#do-they-display-a-sincere-interest-in-data-science"><i class="fa fa-check"></i><b>3.3.2</b> Do they display a sincere interest in Data Science?</a></li>
+<li class="chapter" data-level="3.3.3" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#is-their-housing-and-income-stable-enough-for-them-to-complete-this-program"><i class="fa fa-check"></i><b>3.3.3</b> Is their housing and income stable enough for them to complete this program?</a></li>
+<li class="chapter" data-level="3.3.4" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#do-they-understand-the-expectations-and-demands-of-this-datatrail-program"><i class="fa fa-check"></i><b>3.3.4</b> Do they understand the expectations and demands of this DataTrail program?</a></li>
+<li class="chapter" data-level="3.3.5" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#what-kinds-of-barriers-are-they-likely-to-encounter-that-may-impede-their-ability-to-complete-this-program"><i class="fa fa-check"></i><b>3.3.5</b> What kinds of barriers are they likely to encounter that may impede their ability to complete this program?</a></li>
+<li class="chapter" data-level="3.3.6" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#will-some-of-these-barriers-be-mitigated-or-nonexistent-at-a-later-point-in-time"><i class="fa fa-check"></i><b>3.3.6</b> Will some of these barriers be mitigated or nonexistent at a later point in time?</a></li>
+<li class="chapter" data-level="3.3.7" data-path="setting-up-for-a-cohort.html"><a href="setting-up-for-a-cohort.html#what-strategies-and-resources-can-the-scholar-employ-to-mitigate-these-barriers"><i class="fa fa-check"></i><b>3.3.7</b> What strategies and resources can the scholar employ to mitigate these barriers?</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="running-a-datatrail-cohort.html"><a href="running-a-datatrail-cohort.html"><i class="fa fa-check"></i><b>4</b> Running a DataTrail cohort</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="running-a-datatrail-cohort.html"><a href="running-a-datatrail-cohort.html#welcome-week"><i class="fa fa-check"></i><b>4.1</b> Welcome week</a></li>
+<li class="chapter" data-level="4.2" data-path="running-a-datatrail-cohort.html"><a href="running-a-datatrail-cohort.html#components-of-the-curriculum"><i class="fa fa-check"></i><b>4.2</b> Components of the curriculum</a></li>
+<li class="chapter" data-level="4.3" data-path="running-a-datatrail-cohort.html"><a href="running-a-datatrail-cohort.html#supporting-students-to-meet-requirements"><i class="fa fa-check"></i><b>4.3</b> Supporting students to meet requirements</a></li>
+<li class="chapter" data-level="4.4" data-path="running-a-datatrail-cohort.html"><a href="running-a-datatrail-cohort.html#example-schedule"><i class="fa fa-check"></i><b>4.4</b> Example schedule</a>
+<ul>
+<li class="chapter" data-level="4.4.1" data-path="running-a-datatrail-cohort.html"><a href="running-a-datatrail-cohort.html#wrapping-up-a-cohort"><i class="fa fa-check"></i><b>4.4.1</b> Wrapping up a cohort</a></li>
+<li class="chapter" data-level="4.4.2" data-path="running-a-datatrail-cohort.html"><a href="running-a-datatrail-cohort.html#to-contribute-to-the-curriculum"><i class="fa fa-check"></i><b>4.4.2</b> To contribute to the curriculum:</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="internships.html"><a href="internships.html"><i class="fa fa-check"></i><b>5</b> Internships</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="internships.html"><a href="internships.html#how-to-find-internship-locations"><i class="fa fa-check"></i><b>5.1</b> How to find internship locations</a></li>
+<li class="chapter" data-level="5.2" data-path="internships.html"><a href="internships.html#how-to-prepare-internship-locations"><i class="fa fa-check"></i><b>5.2</b> How to prepare internship locations</a></li>
+<li class="chapter" data-level="5.3" data-path="internships.html"><a href="internships.html#how-to-pay-for-internships"><i class="fa fa-check"></i><b>5.3</b> How to pay for internships</a></li>
+<li class="chapter" data-level="5.4" data-path="internships.html"><a href="internships.html#how-to-place-graduates-in-internships"><i class="fa fa-check"></i><b>5.4</b> How to place graduates in internships</a></li>
+<li class="chapter" data-level="5.5" data-path="internships.html"><a href="internships.html#how-to-support-graduates-in-their-internships"><i class="fa fa-check"></i><b>5.5</b> How to support graduates in their internships</a></li>
+<li class="chapter" data-level="5.6" data-path="internships.html"><a href="internships.html#ending-internships"><i class="fa fa-check"></i><b>5.6</b> Ending Internships</a></li>
+<li class="chapter" data-level="5.7" data-path="internships.html"><a href="internships.html#connecting-scholars-to-job-opportunities"><i class="fa fa-check"></i><b>5.7</b> Connecting scholars to job opportunities</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="a-new-chapter.html"><a href="a-new-chapter.html"><i class="fa fa-check"></i><b>6</b> A new chapter</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="a-new-chapter.html"><a href="a-new-chapter.html#learning-objectives"><i class="fa fa-check"></i><b>6.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="6.2" data-path="a-new-chapter.html"><a href="a-new-chapter.html#libraries"><i class="fa fa-check"></i><b>6.2</b> Libraries</a></li>
+<li class="chapter" data-level="6.3" data-path="a-new-chapter.html"><a href="a-new-chapter.html#topic-of-section"><i class="fa fa-check"></i><b>6.3</b> Topic of Section</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="a-new-chapter.html"><a href="a-new-chapter.html#subtopic"><i class="fa fa-check"></i><b>6.3.1</b> Subtopic</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="a-new-chapter.html"><a href="a-new-chapter.html#code-examples"><i class="fa fa-check"></i><b>6.4</b> Code examples</a></li>
+<li class="chapter" data-level="6.5" data-path="a-new-chapter.html"><a href="a-new-chapter.html#image-example"><i class="fa fa-check"></i><b>6.5</b> Image example</a></li>
+<li class="chapter" data-level="6.6" data-path="a-new-chapter.html"><a href="a-new-chapter.html#video-examples"><i class="fa fa-check"></i><b>6.6</b> Video examples</a>
+<ul>
+<li class="chapter" data-level="6.6.1" data-path="a-new-chapter.html"><a href="a-new-chapter.html#using-knitr"><i class="fa fa-check"></i><b>6.6.1</b> Using <code>knitr</code></a></li>
+<li class="chapter" data-level="6.6.2" data-path="a-new-chapter.html"><a href="a-new-chapter.html#using-html"><i class="fa fa-check"></i><b>6.6.2</b> Using HTML</a></li>
+</ul></li>
+<li class="chapter" data-level="6.7" data-path="a-new-chapter.html"><a href="a-new-chapter.html#file-examples"><i class="fa fa-check"></i><b>6.7</b> File examples</a>
+<ul>
+<li class="chapter" data-level="6.7.1" data-path="a-new-chapter.html"><a href="a-new-chapter.html#using-knitr-1"><i class="fa fa-check"></i><b>6.7.1</b> Using <code>knitr</code></a></li>
+<li class="chapter" data-level="6.7.2" data-path="a-new-chapter.html"><a href="a-new-chapter.html#using-html-1"><i class="fa fa-check"></i><b>6.7.2</b> Using HTML</a></li>
+</ul></li>
+<li class="chapter" data-level="6.8" data-path="a-new-chapter.html"><a href="a-new-chapter.html#website-examples"><i class="fa fa-check"></i><b>6.8</b> Website Examples</a>
+<ul>
+<li class="chapter" data-level="6.8.1" data-path="a-new-chapter.html"><a href="a-new-chapter.html#using-knitr-2"><i class="fa fa-check"></i><b>6.8.1</b> Using <code>knitr</code></a></li>
+<li class="chapter" data-level="6.8.2" data-path="a-new-chapter.html"><a href="a-new-chapter.html#using-html-2"><i class="fa fa-check"></i><b>6.8.2</b> Using HTML</a></li>
+</ul></li>
+<li class="chapter" data-level="6.9" data-path="a-new-chapter.html"><a href="a-new-chapter.html#citation-examples"><i class="fa fa-check"></i><b>6.9</b> Citation examples</a></li>
+<li class="chapter" data-level="6.10" data-path="a-new-chapter.html"><a href="a-new-chapter.html#stylized-boxes"><i class="fa fa-check"></i><b>6.10</b> Stylized boxes</a>
+<ul>
+<li class="chapter" data-level="6.10.1" data-path="a-new-chapter.html"><a href="a-new-chapter.html#using-rmarkdown-container-syntax"><i class="fa fa-check"></i><b>6.10.1</b> Using <code>rmarkdown</code> container syntax</a></li>
+<li class="chapter" data-level="6.10.2" data-path="a-new-chapter.html"><a href="a-new-chapter.html#using-html-3"><i class="fa fa-check"></i><b>6.10.2</b> Using HTML</a></li>
+</ul></li>
+<li class="chapter" data-level="6.11" data-path="a-new-chapter.html"><a href="a-new-chapter.html#dropdown-summaries"><i class="fa fa-check"></i><b>6.11</b> Dropdown summaries</a></li>
+<li class="chapter" data-level="6.12" data-path="a-new-chapter.html"><a href="a-new-chapter.html#print-out-session-info"><i class="fa fa-check"></i><b>6.12</b> Print out session info</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="7" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>7</b> References</a></li>
+<li class="divider"></li>
+<p style="text-align:center;"> <a href="https://github.com/jhudsl/OTTR_Template" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by: </a> </p>
+<p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
+<a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; filter: grayscale(100%); padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://forms.gle/VWaJYc3zATe3qxYC9"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Course Name</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+  <link href="assets/style_DataTrail.css" rel="stylesheet">
+</head>
+        
+
+
+<div class="hero-image-container"> 
+  <img class= "hero-image" src="assets/DataTrail.jpg">
+</div>
+<div id="running-a-datatrail-cohort" class="section level1" number="4">
+<h1><span class="header-section-number">Chapter 4</span> Running a DataTrail cohort</h1>
+<p>It’s a good idea to have a weekly team meeting amongst the case manager, instructor, tutors, and program administrator so any issues on any fronts that arise during the cohort can be discussed amongst the team.</p>
+<p>Our assumption and advise is that if possible you run your cohort with office hours in person, however the Baltimore DataTrail program did run a cohort completely virtually at times.</p>
+<div id="welcome-week" class="section level2" number="4.1">
+<h2><span class="header-section-number">4.1</span> Welcome week</h2>
+<p>The first week of the program should have the following goals:</p>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />
+Scholars get to know staff and their fellow scholars – don’t underestimate how important human connection is!</li>
+<li><input type="checkbox" disabled="" />
+Set up expectations and motivations for the program<ul class="task-list">
+<li><input type="checkbox" disabled="" />
+Signed DataTrail training agreements from each scholar. <a href="https://docs.google.com/document/d/142K3rVvfgjjEnog-NgIlwvbYjdGGp8du/edit">See our template</a></li>
+</ul></li>
+<li><input type="checkbox" disabled="" />
+Assess employment skills and make plan for preparing for work</li>
+<li><input type="checkbox" disabled="" />
+Assess in more detail scholar’s potential barriers in one on one’s</li>
+<li><input type="checkbox" disabled="" />
+Set up each scholar with a Chromebook (advisable to do software updates before handing these out).</li>
+<li><input type="checkbox" disabled="" />
+Set up payments payments, and calendar</li>
+<li><input type="checkbox" disabled="" />
+A Google Classroom set up for your cohort. <a href="https://forms.gle/gACRsXNB3x3yZfLH6">You can request that here</a><ul class="task-list">
+<li><input type="checkbox" disabled="" />
+Invite all scholars, tutors, and the case manager to the GoogleClassroom</li>
+</ul></li>
+</ul>
+</div>
+<div id="components-of-the-curriculum" class="section level2" number="4.2">
+<h2><span class="header-section-number">4.2</span> Components of the curriculum</h2>
+<p><strong>Relevant Roles:</strong> Lead instructor, tutors, and Case Manager.</p>
+<p>The course material is here: <a href="https://datatrail-jhu.github.io/DataTrail/" class="uri">https://datatrail-jhu.github.io/DataTrail/</a>
+(Except quizzes and swirl modules will not be present in this link).</p>
+<p><strong>The course is split into 7 overall sections:</strong></p>
+<ul>
+<li>00 Intro - (note this section doesn’t have a project!)</li>
+<li>01 Forming Questions</li>
+<li>02 Getting Data</li>
+<li>03 Cleaning the Data</li>
+<li>04 Plot the Data</li>
+<li>05 Get the Stats</li>
+<li>06 Share Results</li>
+<li>07 Build your Resume - This project isn’t an Rmd but a website</li>
+</ul>
+<p>For scholars to get credit and payment for work on each section they must:</p>
+<ol style="list-style-type: decimal">
+<li>Attend all office hours.</li>
+<li>Completion and submission of associated projects</li>
+<li>Completion and submission of associated quizzes</li>
+<li>Completion and submission of associated swirl modules</li>
+</ol>
+</div>
+<div id="supporting-students-to-meet-requirements" class="section level2" number="4.3">
+<h2><span class="header-section-number">4.3</span> Supporting students to meet requirements</h2>
+<p>It will be a partnership between the Case Manager and lead instructor and tutors to keep tabs on the scholars and figure out whether they have met the requirements for each section. If they haven’t met the requirements, that is something the Case manager and instructors will want to communicate and explore with the student about what type of support they may need to reach these requirements.</p>
+<p>Unfortunately, not all DataTrail scholars will complete the program. Sometimes the reasons for this are life circumstances that impede their ability to complete the program. But other times, its merely that the scholar, with the help of the Case Manager, may determine that the DataTrail program is not the right fit for them at this time.</p>
+<p>It should be a discussion between the scholar, the Case Manager, and when appropriate, the instructors about what the scholar needs most at this time to be supported. Sometimes, the best way to support the scholar is for them to discontinue the program OR attempt the program again at a later date if a particular circumstance might be improved.</p>
+<p>TODO: This needs Liz and/or Simone to make this section better and more detailed.</p>
+</div>
+<div id="example-schedule" class="section level2" number="4.4">
+<h2><span class="header-section-number">4.4</span> Example schedule</h2>
+<p>A weekly schedule during a cohort for a given scholar may look like this:</p>
+<table>
+<colgroup>
+<col width="12%" />
+<col width="12%" />
+<col width="14%" />
+<col width="18%" />
+<col width="16%" />
+<col width="12%" />
+<col width="16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sunday</th>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
+<th>Saturday</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>2.5 hr individual work <br> 30 min meeting with case manager</td>
+<td>2 hr individual work <br> 1.5 hr for office hours</td>
+<td>2 hr individual work <br> 1 hr for tutor one on one</td>
+<td>2 hr individual work <br> 1.5 hr for office hours</td>
+<td>2 hr individual work</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Suggested structure for each office hour:</p>
+<ol style="list-style-type: decimal">
+<li>Start off by asking what questions folks have and if there’s anything from the material they’d like to go over as a group</li>
+<li>Dive into a exercise – can use the ones below or something else if something comes up during the week that students have requested</li>
+</ol>
+<table>
+<colgroup>
+<col width="9%" />
+<col width="33%" />
+<col width="42%" />
+<col width="14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Session</th>
+<th>Relevant course link</th>
+<th>Suggested office hour material</th>
+<th>Objectives</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Welcome week</td>
+<td>TODO: LINK TO COMPLETED CAREER READINESS</td>
+<td>- Make sure they are on Slack and Google Classroom <br> - Have them open up Zoom and practice sharing screens and show that they have access to the GoogleClassroom <br> - Practice sending zoom chat as well</td>
+<td>Comfort with the platforms and with Google Calendar</td>
+</tr>
+<tr class="even">
+<td>Office Hours 1</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/intro-welcome-to-datatrail.html">Intro 1</a></td>
+<td>- Ice breakers and introductions. <br> - Introduce what office hours will be like</td>
+<td>- Making sure everyone is on Slack and Google Classroom and is <a href="https://github.com/datatrail-jhu/instructor_resources/blob/master/01-chromebook.Rmd">able to use their Chromebook</a> <br> - Try to make everyone comfortable with chatting – keep it informal and chill</td>
+</tr>
+<tr class="odd">
+<td>Office Hours 2</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/account-setup.html">Intro 2</a></td>
+<td>- Ask folks what data science is. <br> - Address any lagging tech issues.</td>
+<td>- Everyone should be on Basecamp and have an RStudio account</td>
+</tr>
+<tr class="even">
+<td>Office Hours 3</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/forming-questions.html">Forming Questions 1</a></td>
+<td>- Discuss the steps of data science. <br> - Walk through <a href="https://datatrail-jhu.github.io/DataTrail/the-data-science-process.html">a data science example</a> <br> - Discussing <a href="https://datatrail-jhu.github.io/DataTrail/how-to-learn.html">How to Learn techniques</a></td>
+<td>Set up the mentality that data science is All about questions so questions are encouraged! AND that data science can be frustrating AND that is expected and okay!</td>
+</tr>
+<tr class="odd">
+<td>Office Hours 4</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/forming-questions.html">Forming Questions 2</a></td>
+<td>- Take a tour through RStudio and <a href="https://github.com/datatrail-jhu/office-hours-exercises/blob/main/Rmarkdown_practice.Rmd">demonstrate live how R Markdowns work</a> <br> - Cover the basics of <a href="https://datatrail-jhu.github.io/DataTrail/your-first-data-science-project.html">the first project in RStudio</a></td>
+<td>- Discuss what questions can be answered by data science. <br> - Get familiar with what an R Markdown looks like</td>
+</tr>
+<tr class="even">
+<td>Office Hours 5</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/getting-data.html">Getting Data 1</a></td>
+<td>- <a href="https://alexslemonade.github.io/training-modules/intro-to-R-tidyverse/01-intro_to_base_R.nb.html">Going over R objects</a> <br> - Leave a lot of time for R questions.</td>
+<td>- Asking how the first project went <br> - Understanding R objects basics <br> - <a href="https://datatrail-jhu.github.io/DataTrail/getting-help-in-r.html#debugging-code">Cover debugging tips</a></td>
+</tr>
+<tr class="odd">
+<td>Office Hours 6</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/getting-data.html">Getting Data 2</a></td>
+<td>- <a href="https://github.com/datatrail-jhu/office-hours-exercises/blob/main/intro_r_exercises/intro_r_exercise_1.Rmd">Covering data frames exercise 1</a> <br> - <a href="https://github.com/datatrail-jhu/office-hours-exercises/blob/main/intro_r_exercises/intro_r_exercise_2.Rmd">Data frames exercise 2</a></td>
+<td>- Understand data frames <br> - Leaving more time for R questions</td>
+</tr>
+<tr class="even">
+<td>Office Hours 7</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/getting-data.html">Getting Data 3</a></td>
+<td>- <a href="https://github.com/datatrail-jhu/office-hours-exercises/blob/main/file_organization_exercises/file_organization_exercise.Rmd">Cover file paths with RStudio demonstrations</a> - <a href="https://datatrail-jhu.github.io/DataTrail/r-markdown.html">Demonstrate R Markdown functionality</a></td>
+<td>- Understand file paths <br> - Be able to read in a CSV file <br> - Be able to use an R Markdown - Be able to upload a file to RStudio - Practice loading libraries with <code>library()</code></td>
+</tr>
+<tr class="odd">
+<td>Office Hours 8</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/getting-data.html">Getting Data 4</a></td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/getting-data-project.html">Preview Getting Data project</a> specifically <a href="https://datatrail-jhu.github.io/DataTrail/google-documents.html">making sure everyone has made their Leanpub data googlesheet</a></td>
+<td>- Prep for Getting Data project <br> - Look out for googlesheets credential issues <br> - Practice using <code>googlesheets4</code></td>
+</tr>
+<tr class="even">
+<td>Office Hours 9</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/cleaning-the-data.html">Cleaning the Data 1</a></td>
+<td>- Leave some time for wrapping up the Getting Data project <br> - Start on <a href="https://github.com/datatrail-jhu/office-hours-exercises/blob/main/data_tidying_exercises/data_tidying_exercise_1_unsolved.Rmd">Tidying exercise 1</a></td>
+<td>- Have Getting Data Project wrapped up <br> - Get folks comfortable with the idea of tidy data <br> - Show them about <a href="https://tidydatatutor.com/vis.html">TidyDataTutor</a></td>
+</tr>
+<tr class="odd">
+<td>Office Hours 10</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/cleaning-the-data.html">Cleaning the Data 2</a></td>
+<td>- Leave time for wrapping up Tidying exercise 1 <br> - Can start <a href="https://github.com/datatrail-jhu/office-hours-exercises/blob/main/data_tidying_exercises/data_tidying_exercise_2_unsolved.Rmd">Tidying exercise 2</a></td>
+<td>- Become more comfortable manipulating strings for data cleaning</td>
+</tr>
+<tr class="even">
+<td>Office Hours 11</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/cleaning-the-data.html">Cleaning the Data 3</a></td>
+<td>- Can finish up <a href="https://github.com/datatrail-jhu/office-hours-exercises/blob/main/data_tidying_exercises/data_tidying_exercise_2_unsolved.Rmd">Tidying exercise 2</a> <br> - Can <a href="https://github.com/rfordatascience/tidytuesday">introduce a tidytuesday case</a> if ahead of schedule</td>
+<td>- Becoming more comfortable with cleaning data</td>
+</tr>
+<tr class="odd">
+<td>Office Hours 12</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/cleaning-the-data.html">Cleaning the Data 4</a></td>
+<td>- Introduce <a href="https://datatrail-jhu.github.io/DataTrail/cleaning-data-project.html">Cleaning the Data Project</a> <br> - As a group, walk <a href="https://datatrail-jhu.github.io/DataTrail/joining-data.html">through the joining exercises in the material</a></td>
+<td>- Understand joins <br> - Be ready to clean up a dataset from soup to nuts</td>
+</tr>
+<tr class="even">
+<td>Office Hours 13</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/plotting-the-data.html">Plotting the data 1</a></td>
+<td>- Leave time for covering Cleaning Data Project wrap up <br> - Cover <a href="https://datatrail-jhu.github.io/DataTrail/good-plots.html">what makes a good plot</a> <br> - <a href="https://github.com/datatrail-jhu/office-hours-exercises/blob/main/dataviz_exercises/dataviz_exercise_1_unsolved.Rmd">Start Data Viz exercise 1</a></td>
+<td>- Be comfortable with the goal of data viz <br> - Understand the basic formula of ggplots</td>
+</tr>
+<tr class="odd">
+<td>Office Hours 14</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/plotting-the-data.html">Plotting the data 2</a></td>
+<td>- <a href="https://github.com/datatrail-jhu/office-hours-exercises/blob/main/dataviz_exercises/dataviz_exercise_2_unsolved.Rmd">Start up data viz exercise 2</a></td>
+<td>Becoming comfortable with ggplot2</td>
+</tr>
+<tr class="even">
+<td>Office Hours 15</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/plotting-the-data.html">Plotting the data 3</a></td>
+<td>- <a href="https://github.com/datatrail-jhu/office-hours-exercises/blob/main/dataviz_exercises/Data_Visualization_Lab.Rmd">Start up data viz exercise 3</a></td>
+<td>Further becoming comfortable with ggplot2</td>
+</tr>
+<tr class="odd">
+<td>Office Hours 16</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/plotting-the-data.html">Plotting the data 4</a></td>
+<td>- Wrap up any of the unfinished data viz exercises <br> - Introduce <a href="https://datatrail-jhu.github.io/DataTrail/plotting-data-project.html">Plotting the data Project</a></td>
+<td>- Being able to ask a question and then make a viz to answer it</td>
+</tr>
+<tr class="even">
+<td>Office Hours 17</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/getting-statistics.html">Getting Statistics 1</a></td>
+<td>Introduce the concepts behind translating questions to stats Go through the <a href="https://datatrail-jhu.github.io/DataTrail/in-practice-using-stats.html">In practice chapter as a group</a></td>
+<td>Set up the mentality for statistics and how one might use them in data science – emphasize that memorization is not needed!</td>
+</tr>
+<tr class="odd">
+<td>Office Hours 18</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/getting-statistics.html">Getting Statistics 2</a></td>
+<td>Discuss the difference between Descriptive, Exploratory and Inferential statistics by going through those chapters as a group</td>
+<td>Understand the groups of kinds of statistical questions</td>
+</tr>
+<tr class="even">
+<td>Office Hours 19</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/getting-statistics.html">Getting Statistics 3</a></td>
+<td><a href="https://github.com/datatrail-jhu/office-hours-exercises/blob/main/stats_exercises/playing_with_stats.Rmd">Go through the “Playing with Stats” exercise</a></td>
+<td>Try to get an intuitive sense for statistics and distributions</td>
+</tr>
+<tr class="odd">
+<td>Office Hours 20</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/getting-statistics.html">Getting Statistics 4</a></td>
+<td>Introduce the <a href="https://datatrail-jhu.github.io/DataTrail/stats-project.html">Get the Stats Project</a></td>
+<td>Help students get comfortable with applying the stats</td>
+</tr>
+<tr class="even">
+<td>Office Hours 21</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/sharing-results.html">Sharing Results 1</a></td>
+<td>Go through what version control means and why it aids in reproducibility. <a href="https://github.com/datatrail-jhu/office-hours-exercises/blob/main/version_control_exercise/version_control.md">Can use this exercise</a>. <a href="https://datatrail-jhu.github.io/DataTrail/cloning-a-repository.html">Demonstrate how to link RStudio with GitHub</a></td>
+<td>- Help students learn about the importance of GitHub <br> - Help students be able to version control their projects by linking to GitHub in RStudio</td>
+</tr>
+<tr class="odd">
+<td>Office Hours 22</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/sharing-results.html">Sharing Results 2</a></td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/pull-requests.html">Demonstrate how to file a pull request</a> and <a href="https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/using-version-control-with-github.html">cover GitHub terms and workflow using this chapter</a></td>
+<td>- Leave time open for GitHub terms <br> - Emphasize that using version control and GitHub is a series of habits they can develop over time</td>
+</tr>
+<tr class="even">
+<td>Office Hours 23</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/sharing-results.html">Sharing Results 3</a></td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/github-and-final-data-project.html">Introduce the Final project</a> and tell students to start thinking about what kind of data science question they’d like to ask and begin looking for datasets that fit. Ask Davon to show his example.</td>
+<td>Encourage them to ask a data science question they are interested in!</td>
+</tr>
+<tr class="odd">
+<td>Office Hours 24</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/sharing-results.html">Sharing Results 4</a></td>
+<td>Help students brainstorm their projects and find data</td>
+<td>Setting up students for their final project!</td>
+</tr>
+<tr class="even">
+<td>Office Hours 25</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/sharing-results.html">Sharing Results 5</a></td>
+<td>Keep this office hours fairly open for students to ask for help with their final project, show their progress, ask for help where needed</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Office Hours 26</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/building-a-resume.html">Building a resume 1</a></td>
+<td>Encourage students to begin putting their final project in a presentation. Show example good presentations. Ask Davon to show his example presentation.</td>
+<td>Prepare the students for presenting their project at graduation!</td>
+</tr>
+<tr class="even">
+<td>Office Hours 27</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/building-a-resume.html">Building a resume 2</a></td>
+<td>Introduce the <a href="https://datatrail-jhu.github.io/DataTrail/create-your-portfolio.html">Create your portfolio project</a> Have additional time for any help needed for their final project presentations</td>
+<td>- Help the students prepare how to show off the work they’ve done <br> - Leave time open for any questions about data science careers in general</td>
+</tr>
+<tr class="odd">
+<td>Office Hours 28</td>
+<td><a href="https://datatrail-jhu.github.io/DataTrail/building-a-resume.html">Building a resume 3</a></td>
+<td>Have students take turns showing off their portfolio website! Wrap up any more help they need with their final project presentations</td>
+<td>Celebrate the work they’ve done!</td>
+</tr>
+<tr class="even">
+<td>Graduation</td>
+<td>Celebrate their amazing work!</td>
+<td>Have the students celebrate the large amount of amazing work they’ve done in such a short amount of time – do not give critical feedback on the scholar presentations, these are all about encouragement and celebration!</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div id="wrapping-up-a-cohort" class="section level3" number="4.4.1">
+<h3><span class="header-section-number">4.4.1</span> Wrapping up a cohort</h3>
+<p>As you are nearing the end of a cohort, you have likely learned a lot about your scholars. In this time, they’ve likely learned a lot about data science and are interested and ready for an internship which will allow them to further hone their skills!</p>
+<p>TODO: How to do internship placements</p>
+</div>
+<div id="to-contribute-to-the-curriculum" class="section level3" number="4.4.2">
+<h3><span class="header-section-number">4.4.2</span> To contribute to the curriculum:</h3>
+<p>The DataTrail curriculum is always looking to be improved. If you encounter issues, bugs, or otherwise find things in the curriculum that could use improvement, please let the curriculum developers know.</p>
+<ul>
+<li>You can email or Slack <a href="mailto:csavonen@fredhutch.org" class="email">csavonen@fredhutch.org</a> with recommendations/problems/concerns.</li>
+<li>You can also post GitHub issues here: <a href="https://github.com/datatrail-jhu/DataTrail/issues" class="uri">https://github.com/datatrail-jhu/DataTrail/issues</a></li>
+<li>All the associated DataTrail GitHub repositories are here: <a href="https://github.com/datatrail-jhu" class="uri">https://github.com/datatrail-jhu</a> if you’d like to file pull requests.</li>
+</ul>
+<p>* Note that for self-learners (not a part of a cohort), <a href="https://leanpub.com/c/datatrail">a Leanpub version of this material is available for certification here</a>.</p>
+
+</div>
+</div>
+</div>
+<hr>
+<center> 
+  <div class="footer">
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="setting-up-for-a-cohort.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="internships.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
