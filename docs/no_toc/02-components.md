@@ -1,7 +1,9 @@
 
 # Components of a program
 
-<img src="02-components_files/figure-html//1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png" title="Major point!! example image" alt="Major point!! example image" width="100%" style="display: block; margin: auto;" />
+<img src="02-components_files/figure-html//1K9JE2KpAvtES7T0RMB6k3Pi5n48JVLtZVlUPFJB1rMM_g25c71ad82a5_0_59.png" title="Step 1: Non profit partners Step 2: Finding funding Step 3: Finding staff Step 4: Finding the scholars Step 5: Setting up to run your first cohort Step 6: Internships placements" alt="Step 1: Non profit partners Step 2: Finding funding Step 3: Finding staff Step 4: Finding the scholars Step 5: Setting up to run your first cohort Step 6: Internships placements" width="100%" style="display: block; margin: auto;" />
+
+<img src="02-components_files/figure-html//1K9JE2KpAvtES7T0RMB6k3Pi5n48JVLtZVlUPFJB1rMM_g25c71ad82a5_0_240.png" width="100%" style="display: block; margin: auto;" />
 
 ## Step 1: Non profit partners
 
