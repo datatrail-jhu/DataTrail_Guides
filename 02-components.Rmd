@@ -1,8 +1,12 @@
 
 # Components of a program
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Major point!! example image"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ/edit#slide=id.gcc4fbee202_0_141")
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Step 1: Non profit partners Step 2: Finding funding Step 3: Finding staff Step 4: Finding the scholars Step 5: Setting up to run your first cohort Step 6: Internships placements"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1K9JE2KpAvtES7T0RMB6k3Pi5n48JVLtZVlUPFJB1rMM/edit#slide=id.g25c71ad82a5_0_59")
+```
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= ""}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1K9JE2KpAvtES7T0RMB6k3Pi5n48JVLtZVlUPFJB1rMM/edit#slide=id.g25c71ad82a5_0_240")
 ```
 
 ## Step 1: Non profit partners
