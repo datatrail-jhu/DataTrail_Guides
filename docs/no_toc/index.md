@@ -1,5 +1,5 @@
 ---
-title: " Course Name "
+title: " DataTrail Program Guides "
 date: "August, 2023"
 site: bookdown::bookdown_site
 documentclass: book
