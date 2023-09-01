@@ -43,7 +43,7 @@ In order for any person to launch their data science career they need:
 - Find appropriate job postings that fit their career goals
 - Access to the connections needs to continue to build their data science career
 
-<img src="resources/images/01-intro_files/figure-html//1ZPSVYmpnwzNyELl_Oqq7WE1gCJ6RhBLE4Umqi0NUJmc_g7a385f1638_0_433.png" width="100%" />
+![](resources/images/01-intro_files/figure-docx//1ZPSVYmpnwzNyELl_Oqq7WE1gCJ6RhBLE4Umqi0NUJmc_g7a385f1638_0_433.png){width=100%}
 
 ### The good news:
 
@@ -51,7 +51,7 @@ The goal of DataTrail is to try to reduce racial inequities in data science by r
 
 Income mobility is aided by education! So what we can do as a part of a DataTrail program is support these young individuals on their journey's toward a data science career. 
 
-<img src="resources/images/01-intro_files/figure-html//1ZPSVYmpnwzNyELl_Oqq7WE1gCJ6RhBLE4Umqi0NUJmc_g7a385f1638_0_998.png" width="100%" />
+![](resources/images/01-intro_files/figure-docx//1ZPSVYmpnwzNyELl_Oqq7WE1gCJ6RhBLE4Umqi0NUJmc_g7a385f1638_0_998.png){width=100%}
 
 To this end, a DataTrail program provides:
 
