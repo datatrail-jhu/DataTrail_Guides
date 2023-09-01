@@ -1,0 +1,9 @@
+1-Background-for-DataTrail.md
+2-Components-of-a-program.md
+3-Setting-up-for-a-Cohort.md
+4-Running-a-DataTrail-cohort.md
+5-Internships.md
+6-Curriculum-Development.md
+7-References.md
+About-this-Course.md
+About-the-Authors.md
